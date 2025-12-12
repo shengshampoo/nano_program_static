@@ -14,6 +14,6 @@ RUN apk add --no-cache \
 
 
 ENV XZ_OPT=-e9
-COPY build-static-nano.sh build-static-nnao.sh
+COPY build-static-nano.sh build-static-nano.sh
 RUN chmod +x ./build-static-nano.sh
 RUN bash ./build-static-nano.sh

@@ -10,7 +10,7 @@ RUN apk upgrade
 RUN apk add --no-cache \
   gcc make groff linux-headers musl-dev ncurses-dev ncurses-static \
   zlib-dev zlib-static curl libmagic-static texinfo file-dev \
-  bash xz git
+  bash xz git grep
 
 
 ENV XZ_OPT=-e9
